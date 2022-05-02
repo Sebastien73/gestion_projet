@@ -1,9 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">IoT</router-link> |
+    <router-link to="/electronique">Electronique</router-link> |
+    <router-link to="/protocoles">Protocoles de communication</router-link> |
+    <router-link to="/cas_etudes">Cas d'études IoT</router-link>
   </nav>
   <router-view/>
+  <BackToTop />
 </template>
 
 <style>
@@ -28,3 +31,9 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script>
+import BackToTop from "@/components/general_components/BackToTop";
+export default {
+  components: {BackToTop}
+}
+</script>
