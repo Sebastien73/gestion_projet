@@ -8,10 +8,10 @@
 
                 <!-- Navbar dropdowns -->
                 <b-nav-item-dropdown text="Lang" right>
-                    <b-dropdown-item href="#">EN</b-dropdown-item>
-                    <b-dropdown-item href="#">ES</b-dropdown-item>
-                    <b-dropdown-item href="#">RU</b-dropdown-item>
-                    <b-dropdown-item href="#">FA</b-dropdown-item>
+                    <router-link to="/">IoT - Home</router-link>
+                    <router-link to="/electronique">Electronique</router-link>
+                    <router-link to="/protocoles">Protocoles de communications</router-link>
+                    <router-link to="/cas_etudes">Cas d'études</router-link>
                 </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown text="User" right>
@@ -25,7 +25,8 @@
 
 <script>
 export default {
-    name: "navbar"
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: "Navbar"
 }
 </script>
 
