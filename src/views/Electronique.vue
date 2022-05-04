@@ -1,5 +1,7 @@
 <template>
-<div></div>
+<div>
+    Electronique
+</div>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-<div></div>
+<div>
+    Cas d'étude IoT
+</div>
 </template>
 
 <script>
