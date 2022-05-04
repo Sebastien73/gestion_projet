@@ -7,6 +7,7 @@
   </nav>
   <router-view/>
   <BackToTop />
+  <Carrousel_hp />
 </template>
 
 <style>
@@ -33,7 +34,8 @@ nav a.router-link-exact-active {
 </style>
 <script>
 import BackToTop from "@/components/general_components/BackToTop";
+import Carrousel_hp from "@/components/carrousel_component/Carrousel_hp";
 export default {
-  components: {BackToTop}
+  components: {Carrousel_hp, BackToTop}
 }
 </script>
