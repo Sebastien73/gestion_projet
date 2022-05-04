@@ -1,42 +1,42 @@
 <template>
-<div class="container">
-  <div class="row vh-100 justify-content-center">
-    <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+  <div class="container">
+    <div class="row vh-100 justify-content-center">
+      <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../../assets/images_carrousel_etude/IMG01.jpg" alt="IoT_1" class="d-block">
+          </div>
+
+          <div class="carousel-item">
+            <img src="../../assets/images_carrousel_etude/IMG02.jpg" alt="IoT_2" class="d-block">
+          </div>
+
+          <div class="carousel-item">
+            <img src="../../assets/images_carrousel_etude/IMG03.jpg" alt="IoT_3" class="d-block">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../../assets/images_carrousel_hp/IMG01.jpg" alt="IoT_1" class="d-block">
-        </div>
-
-        <div class="carousel-item">
-          <img src="../../assets/images_carrousel_hp/IMG02.jpg" alt="IoT_2" class="d-block">
-        </div>
-
-        <div class="carousel-item">
-          <img src="../../assets/images_carrousel_hp/IMG03.jpg" alt="IoT_3" class="d-block">
-        </div>
-      </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
     </div>
   </div>
-</div>
 
 </template>
 
 <script>
 export default {
-  name: "Carrousel_hp",
+  name: "Carousel_etudes",
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
-    <Header/>
-    <BackToTop />
-    <Carrousel_hp />
+  <Header/>
+  <router-view/>
+  <BackToTop />
 </template>
 
 <style>
@@ -19,18 +19,17 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #EF2961;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #EF2961;
 }
 </style>
 <script>
 import BackToTop from "@/components/general_components/BackToTop";
-import Carrousel_hp from "@/components/carrousel_component/Carrousel_hp";
 import Header from "@/components/header/Header";
 export default {
-  components: {Header, Carrousel_hp, BackToTop}
+  components: {Header, BackToTop}
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-<Carrousel_hp />
+  <Carrousel_hp />
 </template>
 
 <script>

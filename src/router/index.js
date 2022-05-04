@@ -3,10 +3,17 @@ import HomeIoT from '../views/HomeIoT.vue'
 import Electronique from '../views/Electronique.vue'
 import Protocoles_comm from '../views/Protocoles_comm.vue'
 import Cas_etudes from "@/views/Cas_etudes";
+import Formation from "@/views/Formation";
+import Error404 from "@/views/Error404";
 
 const routes = [
   {
     path: '/',
+    name: 'index',
+    component: Formation
+  },
+  {
+    path: '/home',
     name: 'home',
     component: HomeIoT
   },
@@ -21,6 +28,10 @@ const routes = [
   {
     path: '/cas_etudes',
     component: Cas_etudes
+  },
+  {
+    path: '/:catchAll(.*)',
+    component: Error404
   }
 ]
 

@@ -36,7 +36,7 @@ export default {
 <style scoped>
 #btn-to-top{
   position: fixed;
-  background-color: black;
+  background-color: #EF2961;
   bottom: 80px;
   right: 20px;
   border-radius: 100%;
