@@ -10,21 +10,21 @@
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../../assets/images_carrousel_hp/IMG_4727.jpg" alt="IoT_1" class="d-block">
+          <img src="../../assets/images_carrousel_hp/IMG01.jpg" alt="IoT_1" class="d-block">
           <div class="carousel-caption">
             <h4>TITRE ICI</h4>
           </div>
         </div>
 
         <div class="carousel-item">
-          <img src="../../assets/images_carrousel_hp/IMG_4730.jpg" alt="IoT_2" class="d-block">
+          <img src="../../assets/images_carrousel_hp/IMG02.jpg" alt="IoT_2" class="d-block">
           <div class="carousel-caption">
             <h4>TITRE ICI</h4>
           </div>
         </div>
 
         <div class="carousel-item">
-          <img src="../../assets/images_carrousel_hp/IMG_4732.jpg" alt="IoT_3" class="d-block">
+          <img src="../../assets/images_carrousel_hp/IMG03.jpg" alt="IoT_3" class="d-block">
           <div class="carousel-caption">
             <h4>TITRE ICI</h4>
           </div>
