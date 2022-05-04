@@ -8,7 +8,7 @@
 
           <!-- Navbar dropdowns -->
           <b-nav-item-dropdown text="Lang" right>
-            <router-link to="/">IoT - Home</router-link>test
+            <router-link to="/home">IoT - Home</router-link>test
             <router-link to="/electronique">Electronique</router-link>
             <router-link to="/protocoles">Protocoles de communications</router-link>
             <router-link to="/cas_etudes">Cas d'études</router-link>
