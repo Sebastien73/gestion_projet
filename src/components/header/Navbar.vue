@@ -9,6 +9,7 @@
                 </b-nav-item>
 
                 <b-nav-item class="justify-content-md-between">
+                    <router-link class="m-3" to="/home">#IoT</router-link>
                     <router-link class="m-3" to="/electronique">#Electronique</router-link>
                     <router-link class="m-3" to="/protocoles">#Protocoles de communications</router-link>
                     <router-link class="m-3" to="/cas_etudes">#Cas d'études IoT</router-link>
