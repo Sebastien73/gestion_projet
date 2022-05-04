@@ -1,12 +1,7 @@
 <template>
-  <nav>
-    <router-link to="/">IoT</router-link> |
-    <router-link to="/electronique">Electronique</router-link> |
-    <router-link to="/protocoles">Protocoles de communication</router-link> |
-    <router-link to="/cas_etudes">Cas d'études IoT</router-link>
-  </nav>
-  <router-view/>
-  <BackToTop />
+    <Header/>
+    <BackToTop />
+    <Carrousel_hp />
 </template>
 
 <style>
@@ -33,7 +28,9 @@ nav a.router-link-exact-active {
 </style>
 <script>
 import BackToTop from "@/components/general_components/BackToTop";
+import Carrousel_hp from "@/components/carrousel_component/Carrousel_hp";
+import Header from "@/components/header/Header";
 export default {
-  components: {BackToTop}
+  components: {Header, Carrousel_hp, BackToTop}
 }
 </script>
