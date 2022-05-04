@@ -1,21 +1,36 @@
 <template>
     <div>
-        <nav class="navbar navbar-dark bg-dark font-weight text-uppercase">
-            <b-navbar-nav>
-                <b-nav-item>
-                    <router-link class="mr-md-3"  to="/">
-                        <img src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus">
-                    </router-link>
-                </b-nav-item>
 
-                <b-nav-item class="justify-content-md-between">
-                    <router-link class="m-3" to="/home">#IoT</router-link>
-                    <router-link class="m-3" to="/electronique">#Electronique</router-link>
-                    <router-link class="m-3" to="/protocoles">#Protocoles de communications</router-link>
-                    <router-link class="m-3" to="/cas_etudes">#Cas d'études IoT</router-link>
-                </b-nav-item>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
+            <router-link class="mr-md-3 navbar-header"  to="/">
+                <img id="logoCampus" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus">
+            </router-link>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                           aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            </b-navbar-nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <router-link class="m-3 nav-link" to="/home"> <span class="sr-only"> #IoT </span> </router-link>
+                    </li>
+
+                    <li class="nav-item active">
+                        <router-link class="m-3 nav-link" to="/electronique"> <span class="sr-only"> #Electronique </span> </router-link>
+                    </li>
+
+                    <li class="nav-item active">
+                        <router-link class="m-3 nav-link" to="/protocoles"> <span class="sr-only"> #Protocoles de communication </span> </router-link>
+                    </li>
+
+                    <li class="nav-item active">
+                        <router-link class="m-3 nav-link" to="/cas_etudes"> <span class="sr-only"> #Cas d'études IoT </span> </router-link>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
     </div>
 </template>
@@ -29,8 +44,19 @@ export default {
 
 <style scoped>
 
-body {
+.navbar .navbar-nav .nav-item .nav-link {
     font-family: "Open Sans", Sans-serif;
+    font-weight: bold;
+    color: #EF2961;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #bb0036;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active {
+    color: white;
 }
 
 </style>
