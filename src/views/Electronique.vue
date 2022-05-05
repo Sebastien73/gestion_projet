@@ -22,6 +22,8 @@
       Eius tempore eum obcaecati voluptatum ipsa culpa. Quaerat dolorum placeat non error! Beatae delectus tempora autem molestias libero, ducimus omnis qui, reprehenderit assumenda recusandae quaerat. Repellendus repellat aliquid aspernatur! Quo?</p>
     </div>
 
+    <h2 class="text-start my-5">FAQ</h2>
+
     <div class="accordion my-3" id="accordionExample">
       <div class="accordion-item my-1 shadow p-3 mb-5 bg-body rounded">
         <h2 class="accordion-header" id="headingOne">
