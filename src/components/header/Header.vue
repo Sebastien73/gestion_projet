@@ -1,7 +1,6 @@
 <template>
     <Navbar />
 
-<!--    <img v-if=" router page === image.title" class="img-fluid" :src={{images.url }} :alt="{{ images.alt[title] }}" :key="{{ images.title }}">-->
 </template>
 
 <script>
