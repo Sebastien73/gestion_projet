@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row vh-100 ">
+    <div class="row">
       <h1 class="mt-5 fw-bold ">INTERNET OF THINGS</h1>
       <p class="mt-3"><strong>
         Learning Lab à l’IUT de Chambéry pour apprendre
