@@ -1,8 +1,8 @@
 <template>
     <div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
-            <router-link class="mr-md-3 navbar-header"  to="/">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase w-100">
+            <router-link class="mr-md-3 navbar-header container"  to="/">
                 <img id="logoCampus" class="img-fluid" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus" width="">
             </router-link>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -11,7 +11,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse container" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <router-link class="m-3 nav-link" to="/home"> <span class="sr-only"> #IoT </span> </router-link>
@@ -43,6 +43,12 @@ export default {
 </script>
 
 <style scoped>
+
+.navbar {
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
 
 .navbar .navbar-nav .nav-item .nav-link {
     font-family: "Open Sans", Sans-serif;
