@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row vh-100 justify-content-center">
+    <div class="row vh-100 ">
       <h1 class="mt-5 fw-bold ">INTERNET OF THINGS</h1>
       <p class="mt-3"><strong>
         Learning Lab à l’IUT de Chambéry pour apprendre
@@ -24,8 +24,59 @@
         </svg>
         </router-link>
       </div>
+      <div class="mt-5">
+        <iframe width="1264" height="711" src="https://www.youtube.com/embed/cPCuvNZW53E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="mt-5">
 
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col align_left m-3">
+            <p class="fw-bold">Objectif et démarche pédagogiques :</p>
+            <ul><u>Découverte et identification du matériel :</u>
+              <li>La carte programmable (Arduino Uno mais aussi les autres).</li>
+              <li>Les capteurs</li>
+              <li>Les effecteurs ou actionneurs</li>
+              <li>La connectique</li>
+              <li>Orchestration des différents éléments : montage (schéma + réalisation)</li>
+              <li>Du hardware au software : créer (concevoir et réaliser) son premier objet connecté</li>
+            </ul>
 
+            <ul><u>Compétences :</u>
+              <li>Afficher des données issues d’un capteur Arduino</li>
+              <li>Connecter un capteur Arduino</li>
+              <li>Réaliser une maquette</li>
+              <li>Connecter une carte et un capteur Arduino à un réseau Wifi</li>
+              <li>Programmer un effecteur et un petit objet</li>
+              <li>Debugger un dysfonctionnement</li>
+              <li>Utiliser un composant complexe</li>
+            </ul>
+          </div>
+          <div class="col">
+            <img src="../assets/images/arduino.png" alt="arduino">
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 text-decoration-underline">
+        <p>Vous développerez ces compétences grâce à <strong>trois modules</strong> au Learning Lab de l’IUT de Chambéry.</p>
+      </div>
+      <div class="container mt-5 shadow c-border">
+        <div class="row ">
+          <div class="col m-3">
+            <p class="p-rose">13 Jours</p>
+            <p>ELECTRONIQUE</p>
+          </div>
+          <div class="col m-3">
+            <p class="p-rose">5 Jours</p>
+            <p>PROTOCOLES DE COMMUNICATION</p>
+          </div>
+          <div class="col m-3">
+            <p class="p-rose">10 Jours</p>
+            <p>CAS D'ETUDE IOT</p>
+          </div>
+        </div>
+      </div>
       <Carrousel_hp />
     </div>
   </div>
@@ -50,5 +101,15 @@ export default {
 .btn-rose:hover{
   background-color: #211b19;
   color: #EF2961;
+}
+.p-rose{
+  color: #EF2961;
+  font-size: 25px;
+}
+.c-border{
+  border-radius: 0 50px 0 50px;
+}
+.align_left{
+  text-align: left;
 }
 </style>
