@@ -18,12 +18,8 @@
 }
 
 footer {
-  // position: absolute;
-  // position: fixed;
-  // bottom: 0;
   width: 100%;
   margin-top: 200px;
-  /* padding-top: 200px; */
 }
 
 </style>

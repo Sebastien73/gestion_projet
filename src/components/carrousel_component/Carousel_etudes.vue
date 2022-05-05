@@ -2,12 +2,6 @@
   <div class="container">
     <div class="row vh-100 justify-content-center">
       <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
-        </div>
-
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="../../assets/images_carrousel_etude/IMG01.jpg" alt="IoT_1" class="d-block">
