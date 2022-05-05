@@ -15,14 +15,11 @@
   text-align: center;
   color: black;
   background-color: white;
-<<<<<<< HEAD
 }
 
 footer {
   width: 100%;
   margin-top: 200px;
-=======
->>>>>>> nico
 }
 
 </style>
