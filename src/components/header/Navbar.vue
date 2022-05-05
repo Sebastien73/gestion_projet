@@ -3,7 +3,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
             <router-link class="mr-md-3 navbar-header"  to="/">
-                <img id="logoCampus" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus">
+                <img id="logoCampus" class="img-fluid" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus" width="">
             </router-link>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -57,6 +57,11 @@ export default {
 
 .navbar .navbar-nav .nav-item .nav-link:active {
     color: white;
+}
+
+/*__Logo____________________________*/
+#logoCampus {
+    max-width: 50%;
 }
 
 </style>
