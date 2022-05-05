@@ -13,13 +13,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-
-}
-
-footer {
-  width: 100%;
-  margin-top: 200px;
+  color: black;
+  background-color: white;
 }
 
 </style>
