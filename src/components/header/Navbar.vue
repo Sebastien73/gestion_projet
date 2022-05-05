@@ -2,7 +2,7 @@
     <div>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase w-100">
-            <a class="mr-md-3 navbar-header container"  href="public/formation.htm">
+            <a class="mr-md-3 navbar-header container"  href="formation.htm">
                 <img id="logoCampus" class="img-fluid" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus" width="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"

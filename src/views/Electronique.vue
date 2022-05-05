@@ -2,7 +2,8 @@
 <div class="container">
   <div class="row fin">
     <img src="" alt="">
-    <h1 class="mt-5 fw-bold ">ELECTRONIQUE</h1>
+    <h1 class="fw-bold ">ELECTRONIQUE</h1>
+
     <p class="mt-3"><strong>
         Learning Lab à l’IUT de Chambéry pour apprendre
       </strong><br>
@@ -158,7 +159,7 @@ export default {
 }
 
 h1 {
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
 .images {
