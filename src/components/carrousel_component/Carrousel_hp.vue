@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <div class="row vh-100 justify-content-center">
+  <div class="row justify-content-center">
     <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -54,6 +54,9 @@ export default {
 h4{
   text-decoration: underline;
   text-decoration-color: #EF2961;
+}
+.carousel-inner{
+  height: auto !important;
 }
 
 /* MOBILE PORTRAIT */

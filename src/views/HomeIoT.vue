@@ -27,9 +27,6 @@
       <div class="mt-5">
         <iframe width="1264" height="711" src="https://www.youtube.com/embed/cPCuvNZW53E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div class="mt-5">
-
-      </div>
       <div class="container">
         <div class="row">
           <div class="col align_left m-3">
@@ -77,9 +74,10 @@
           </div>
         </div>
       </div>
-      <Carrousel_hp />
     </div>
+    <Carrousel_hp />
   </div>
+
 </template>
 
 <script>

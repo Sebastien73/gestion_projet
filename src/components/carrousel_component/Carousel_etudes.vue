@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row vh-100 justify-content-center">
+    <div class="row justify-content-center">
       <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -37,15 +37,15 @@ export default {
 <style scoped>
 #myCarousel{
   width: 75%;
-  height: 100%;
+  height: auto !important;
 }
 .carousel-inner{
   width: 100%;
-  height: 75vh;
+  height: auto !important;
 }
 .d-block{
   width: 100%;
-  height: 70vh;
+
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
   background-color: #EF2961;
