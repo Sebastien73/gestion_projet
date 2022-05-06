@@ -9,7 +9,6 @@ const routes = [
   {
     path: '/',
     redirect:"/home",
-    name: 'home',
     component: HomeIoT
   },
   {
