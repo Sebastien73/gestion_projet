@@ -28,9 +28,109 @@
     </button>
 
     <div v-if="controlBlock">
-      <div class="d-flex justify-content-between my-5">
-        <img class="images" src="../assets/images/electronique/20220427_162255_01.jpg" alt="">
-        <img class="images" src="../assets/images/electronique/20220428_084216.jpg" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="images2" src="../assets/images/electronique/20220427_162255_01.jpg" alt="electronique1">
+          </div>
+          <div class="col">
+            <img class="images2" src="../assets/images/electronique/20220427_162255_02.jpg" alt="electronique2">
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col">
+            <img class="images2" src="../assets/images/electronique/20220427_162255_03.jpg" alt="electronique3">
+          </div>
+          <div class="col">
+            <img class="images2" src="../assets/images/electronique/20220427_162255_04.jpg" alt="electronique4">
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col">
+            <img class="images2" src="../assets/images/electronique/20220427_162317_01.jpg" alt="electronique5">
+          </div>
+          <div class="col">
+            <img class="images2" src="../assets/images/electronique/20220427_162317_02.jpg" alt="electronique6">
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162317_03.jpg" alt="electronique7">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162317_05.jpg" alt="electronique8">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162346.jpg" alt="electronique9">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162449.jpg" alt="electronique10">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162458.jpg" alt="electronique11">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162550.jpg" alt="electronique12">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162623.jpg" alt="electronique13">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220427_162642.jpg" alt="electronique14">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220428_084132.jpg" alt="electronique15">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220428_084152.jpg" alt="electronique16">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220428_084203.jpg" alt="electronique17">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/20220428_084216.jpg" alt="electronique18">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/electronique04.jpg" alt="electronique19">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/electronique05.jpg" alt="electronique20">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/electronique06.webp" alt="electronique21">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/electronique/electronique07.jpg" alt="electronique22">
+        </div>
+      </div>
+
+      <div class="row mt-2 justify-content-center">
+        <img class="images2" src="../assets/images/electronique/electronique08.jpg" alt="electronique23">
       </div>
     </div>
 
@@ -90,7 +190,12 @@ h1 {
 }
 
 .images {
-  height: 350px;
+  height: 250px;
+}
+
+.images2 {
+  width: 70%;
+  height: 70%;
 }
 
 .btn {
