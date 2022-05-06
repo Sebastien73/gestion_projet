@@ -5,7 +5,7 @@
             <a class="mr-md-3 navbar-header container" @click="scrollT"  href="/formation.htm">
                 <img id="logoCampus" class="img-fluid" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus" width="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse"
                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                            aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,6 +75,11 @@ nav a.router-link-exact-active {
 /*__Logo____________________________*/
 #logoCampus {
     max-width: 40%;
+}
+
+/*__Menu_Burger_____________________*/
+#burger {
+
 }
 
 </style>
