@@ -13,8 +13,8 @@
 
             <div class="collapse navbar-collapse container" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active" v-for="(page, index) in pages" :key="page.id" >
-                        <router-link class="m-3 nav-link" :class="{ active: activeIndex === index}" @click="activeIndex = index; scrollT" :to="page.path"> <span class="sr-only"> #{{ page.pageTitle }} </span> </router-link>
+                    <li class="nav-item active" v-for="(page) in pages" :key="page.id" >
+                        <router-link class="m-3 nav-link" @click="scrollT" :to="page.path"> <span class="sr-only"> {{ page.pageTitle }} </span> </router-link>
                     </li>
                 </ul>
             </div>
@@ -26,25 +26,18 @@
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name: "Navbar",
-
     data() {
         return {
             pages: [
-                //{pageTitle: "formation.htm", id: 0},
-                {pageTitle: "iot", id: 1, path: "/home"},
-                {pageTitle: "électronique", id: 2, path: "/electronique"},
-                {pageTitle: "protocoles de communication", id: 3, path: "/protocoles"},
-                {pageTitle: "cas d'études iot", id: 4, path: "/cas_etudes"}
+                {pageTitle: "#iot", id: 1, path: "/home"},
+                {pageTitle: "#électronique", id: 2, path: "/electronique"},
+                {pageTitle: "#protocoles de communication", id: 3, path: "/protocoles"},
+                {pageTitle: "#cas d'études iot", id: 4, path: "/cas_etudes"}
             ],
-
-            activeIndex: 0
         }
     },
 
     methods: {
-        selectPage: function (id) {
-            this.activeId = id;
-        },
         scrollT(){
             window.scroll(0,0);
         }
@@ -73,6 +66,10 @@ export default {
 
 .navbar .navbar-nav .nav-item .nav-link.active {
     color: white;
+}
+
+nav a.router-link-exact-active {
+  color: #FFFFFF !important;
 }
 
 /*__Logo____________________________*/
