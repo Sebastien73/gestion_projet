@@ -31,7 +31,7 @@
 
     <h2 class="text-start my-5">Témoignages</h2>
 
-    <Accordion_accordion />
+    <Accordion_etudes />
 
     <Carousel_etudes/>
     <div class="d-flex justify-content-between my-5">
@@ -52,11 +52,11 @@
 
 <script>
 import Carousel_etudes from "@/components/carrousel_component/Carousel_etudes";
-import Accordion_accordion from "@/components/accordion_component/Accordion_accordion";
+import Accordion_etudes from "@/components/accordion_component/Accordion_etudes";
 
 export default {
   name: "Cas_etudes",
-  components: {Carousel_etudes, Accordion_accordion, },
+  components: {Carousel_etudes, Accordion_etudes, },
   data(){
     return{
       controlBlock: false
