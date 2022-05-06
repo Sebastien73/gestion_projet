@@ -1,4 +1,4 @@
 # Redirects from what the browser requests to what we serve
 /                /formation.htm 200
-/*              /index.html 200
+/app/*              /index.html 200
 
