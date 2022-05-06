@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Customize Bootstrap
+@see: https://getbootstrap.com/docs/3.4/customize/#navbar
