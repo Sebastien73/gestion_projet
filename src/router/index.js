@@ -7,7 +7,8 @@ import Error404 from "@/views/Error404";
 
 const routes = [
   {
-    path: '/home',
+    path: '/',
+    redirect:"/home",
     name: 'home',
     component: HomeIoT
   },
