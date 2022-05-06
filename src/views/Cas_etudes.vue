@@ -11,7 +11,7 @@
           Doloribus debitis molestiae aspernatur blanditiis ipsa consequatur. Nostrum quam autem, eum repudiandae ullam officia, fugiat qui, deserunt a molestias optio nam consectetur. Blanditiis deleniti repellendus ex quam at eum numquam?
       </p>
       </div>
-      <div class="d-flex justify-content-between my-5">
+      <div class="d-flex justify-content-center">
         <img class="images" src="../assets/images/20220427_161755.jpg" alt="">
       </div>
     </div>
@@ -22,9 +22,60 @@
     </button>
 
     <div v-if="controlBlock">
-      <div class="d-flex justify-content-between my-5">
-        <img class="images" src="../assets/images/electronique/20220427_162255_01.jpg" alt="">
-        <img class="images" src="../assets/images/electronique/20220428_084216.jpg" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="images2" src="../assets/images/etude/20220427_154910.jpg" alt="cas_etude1">
+          </div>
+          <div class="col">
+            <img class="images2" src="../assets/images/etude/20220427_154915.jpg" alt="cas_etude2">
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col">
+            <img class="images2" src="../assets/images/etude/20220427_154934.jpg" alt="cas_etude3">
+          </div>
+          <div class="col">
+            <img class="images2" src="../assets/images/etude/20220427_154938.jpg" alt="cas_etude4">
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col">
+            <img class="images2" src="../assets/images/etude/20220427_154951.jpg" alt="cas_etude5">
+          </div>
+          <div class="col">
+            <img class="images2" src="../assets/images/etude/20220427_155000.jpg" alt="cas_etude6">
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/etude/20220428_084109.jpg" alt="cas_etude7">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/etude/20220428_095209.jpg" alt="cas_etude8">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/etude/20220428_095221.jpg" alt="cas_etude9">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/etude/20220428_095313.jpg" alt="cas_etude10">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <img class="images2" src="../assets/images/etude/20220428_095317.jpg" alt="cas_etude11">
+        </div>
+        <div class="col">
+          <img class="images2" src="../assets/images/etude/20220428_095324.jpg" alt="cas_etude12">
+        </div>
       </div>
     </div>
 
@@ -89,6 +140,10 @@ h1 {
   height: 250px;
 }
 
+.images2{
+  width: 93%;
+  height: auto;
+}
 .btn {
   width: 200px;
 }
