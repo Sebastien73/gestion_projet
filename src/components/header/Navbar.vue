@@ -123,6 +123,13 @@ ul{
     display: none;
   }
 }
+
+.btn-check:focus + .btn, .btn:focus {
+
+    box-shadow: none;
+
+}
+
 @media (min-width: 1025px){
   #desktop{
     display: block;
