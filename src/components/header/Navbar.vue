@@ -2,7 +2,7 @@
     <div>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase w-100">
-            <a class="mr-md-3 navbar-header container"  href="formation.htm">
+            <a class="mr-md-3 navbar-header container"  href="formation.htm" @click="scrollT">
                 <img id="logoCampus" class="img-fluid" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus" width="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -14,19 +14,19 @@
             <div class="collapse navbar-collapse container" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <router-link class="m-3 nav-link" to="/home"> <span class="sr-only"> #IoT </span> </router-link>
+                        <router-link class="m-3 nav-link" to="/home" @click="scrollT"> <span class="sr-only"> #IoT </span> </router-link>
                     </li>
 
                     <li class="nav-item active">
-                        <router-link class="m-3 nav-link" to="/electronique"> <span class="sr-only"> #Electronique </span> </router-link>
+                        <router-link class="m-3 nav-link" to="/electronique" @click="scrollT"> <span class="sr-only"> #Electronique </span> </router-link>
                     </li>
 
                     <li class="nav-item active">
-                        <router-link class="m-3 nav-link" to="/protocoles"> <span class="sr-only"> #Protocoles de communication </span> </router-link>
+                        <router-link class="m-3 nav-link" to="/protocoles" @click="scrollT"> <span class="sr-only"> #Protocoles de communication </span> </router-link>
                     </li>
 
                     <li class="nav-item active">
-                        <router-link class="m-3 nav-link" to="/cas_etudes"> <span class="sr-only"> #Cas d'études IoT </span> </router-link>
+                        <router-link class="m-3 nav-link" to="/cas_etudes" @click="scrollT"> <span class="sr-only"> #Cas d'études IoT </span> </router-link>
                     </li>
 
                 </ul>
@@ -38,7 +38,12 @@
 <script>
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
-    name: "Navbar"
+    name: "Navbar",
+  methods:{
+    scrollT(){
+      window.scroll(0,0);
+    }
+  }
 }
 </script>
 
