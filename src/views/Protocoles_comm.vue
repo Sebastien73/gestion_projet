@@ -25,10 +25,19 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <img class="images2" src="../assets/images/protocole/LoRA01.jpg" alt="protocole1">
+            <img class="images2" src="../assets/images/protocole/comm1.png" alt="protocole1">
           </div>
           <div class="col">
-            <img class="images2" src="../assets/images/protocole/LoRa02.webp" alt="protocole2">
+            <img class="images2" src="../assets/images/protocole/comm2.jpg" alt="protocole2">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <img class="images2" src="../assets/images/protocole/comm3.png" alt="protocole3">
+          </div>
+          <div class="col">
+            <img class="images2" src="../assets/images/protocole/comm4.png" alt="protocole4">
           </div>
         </div>
       </div>
