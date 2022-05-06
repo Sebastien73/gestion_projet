@@ -2,9 +2,9 @@
     <div>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase w-100">
-            <router-link class="mr-md-3 navbar-header container"  :class="{ active: activeIndex === index}" @click="activeIndex = index; scrollT"  to="/home">
+            <a class="mr-md-3 navbar-header container" @click="scrollT"  to="/formation.htm">
                 <img id="logoCampus" class="img-fluid" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus" width="">
-            </router-link>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                            aria-expanded="false" aria-label="Toggle navigation">
