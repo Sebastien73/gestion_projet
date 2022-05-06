@@ -5,16 +5,18 @@
             <a class="mr-md-3 navbar-header container" @click="scrollT"  href="/formation.htm">
                 <img id="logoCampus" class="img-fluid" src="https://le-campus-numerique.fr/wp-content/uploads/2020/12/logo-campus-header.png" alt="Logo Campus" width="">
             </a>
+
             <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse"
                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                            aria-expanded="false" aria-haspopup="true" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <div class="navbar-toggler-icon" data-popper-placement="bottom"></div>
             </button>
 
             <div class="collapse navbar-collapse container" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active" v-for="(page, index) in pages" :key="page.id" >
-                        <router-link class="m-3 nav-link" :class="{ active: activeIndex === index}" @click="activeIndex = index; scrollT" :to="page.path"> <span class="sr-only"> #{{ page.pageTitle }} </span> </router-link>
+                        <router-link class="m-3 nav-link" :class="{ active: activeIndex === index}"
+                                            @click="activeIndex = index; scrollT" :to="page.path"> <span class="sr-only"> #{{ page.pageTitle }} </span> </router-link>
                     </li>
                 </ul>
             </div>
